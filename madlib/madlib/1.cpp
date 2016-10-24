@@ -16,3 +16,24 @@ int main()
 	story(name, noun, number, bodyPart, verb);
 	return 0;
 }
+
+string askText(string prompt)
+{
+	string text;
+	cout << prompt;
+	cin >> text;
+	return text;
+}
+
+int askNumber(string prompt)
+{
+	int num;
+	cout << prompt;
+	cin >> num;
+	return num;
+}
+
+void story(string name, string noun, int number, string bodyPart, string verb)
+{
+
+}
